@@ -2,6 +2,10 @@
   --------------------------------------------- 
   This is used to style the Navigation bar on the home page.
 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .navbar{
   padding: 10px;
   background-color: #d9d9d9;
@@ -30,6 +34,6 @@
 
 .logo{
   width: 100px;
-  height: 50px;
-  padding: 20px;  
+  padding: 20px; 
+  object-fit: cover; 
 }
