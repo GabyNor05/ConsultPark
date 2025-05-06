@@ -1,0 +1,103 @@
+.services-header {
+    width: 100%;
+    height: 94vh;
+    background-image: url("../../../assets/plant.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Required for the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+    backdrop-filter: blur(1.2px); /* Apply blur effect */
+    z-index: 1; /* Ensure it appears above the background */
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'quicksand', sans-serif;
+    margin: 0;
+    z-index: 2; /* Ensure it appears above the overlay */
+    position: relative;
+}
+
+/* Accordion Parent Container */
+.accordion-container {
+    width: 100%;
+    max-width: 85%; /* Adjust as needed */
+    margin: 0 auto; /* Center the accordion */
+    padding: 1rem;
+
+    border-radius: 8px;
+
+}
+
+/* Individual Accordion Item */
+.accordion-item {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* Accordion Title and Subtitle */
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-title.active {
+    background-color: #e0e0e0;
+}
+
+.accordion-subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Accordion Content Container */
+.accordion-content-container {
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+/* Individual Content Section */
+.accordion-content {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-content h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.accordion-content p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: #555;
+}
