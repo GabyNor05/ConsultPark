@@ -22,7 +22,7 @@ function App() {
         </Routes>
       </Router>
 
-      <div className="text-3xl font-bold text-blue-400">
+      <div className="text-8xl font-bold text-blue-400 p-2">
       Tailwind is working!
     </div>
     </div>
