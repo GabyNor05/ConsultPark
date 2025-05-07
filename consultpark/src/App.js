@@ -21,10 +21,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-
-      <div className="text-8xl font-bold text-blue-400 p-2">
-      Tailwind is working!
-    </div>
     </div>
     
   );
