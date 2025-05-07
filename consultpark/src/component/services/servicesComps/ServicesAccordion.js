@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Services.css';
+// import Plant from '../../../assets/plant.jpg';
 
 const ServicesAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -11,7 +12,8 @@ const ServicesAccordion = () => {
   const accordionItems = [
     {
       title: 'Virtual Customer Support & Live Chat',
-      subTitle: `Consult Park specializes in outsourcing virtual teams to support international companies in achieving their business goals. Here are some key services that fall under Customer Support & Live Chat for the Consult Park website:`,
+
+      // subTitle: `Consult Park specializes in outsourcing virtual teams to support international companies in achieving their business goals. Here are some key services that fall under Customer Support & Live Chat for the Consult Park website:`,
       contentTitle1: `1. Helpdesk Support:`,
       content1: `● Email-based Ticketing System: Managing customer queries and issues through an email-based system where tickets are created, tracked, and resolved. This includes providing first-level telephone support and exceptional customer service via email
         ● Remote Desktop Support: Using remote desktop applications to troubleshoot and resolve technical issues directly on the customer's device
@@ -77,18 +79,18 @@ lifecycle. This helps in improving customer relationships, retaining clients, an
 ● Bank Reconciliation: Regularly comparing and reconciling bank statements with the company's financial records to ensure accuracy.
 ● Expense Tracking: Monitoring and categorizing business expenses to maintain a clear financial picture.`,
       contentTitle2: `2. Accounting Services:`,
-      content2: `● Financial Statement Preparation: Compiling and preparing fi nancial statements such as balance sheets, income statements, and cash fl ow statements.
+      content2: `● Financial Statement Preparation: Compiling and preparing financial statements such as balance sheets, income statements, and cash fl ow statements.
 ● Tax Preparation and Filing: Ensuring compliance with tax regulations, preparing tax returns, and fi ling them on time.
-● Budgeting and Forecasting: Assisting in the creation of budgets and fi nancial forecasts to help businesses plan for the future.
+● Budgeting and Forecasting: Assisting in the creation of budgets and financial forecasts to help businesses plan for the future.
 ● Payroll Processing: Managing payroll, including calculating wages, withholding taxes, and ensuring timely payment to employees.`,
       contentTitle3: `3. Management Accounting:`,
-      content3: `● Cost Analysis: Analyzing costs associated with business operations to identify areas for cost reduction and effi ciency improvement.
-● Financial Reporting: Providing detailed fi nancial reports to management for decision-making purposes.
-● Performance Metrics: Tracking key performance indicators (KPIs) to measure the fi nancial health and performance of the business.`,
+      content3: `● Cost Analysis: Analyzing costs associated with business operations to identify areas for cost reduction and efficiency improvement.
+● Financial Reporting: Providing detailed financial reports to management for decision-making purposes.
+● Performance Metrics: Tracking key performance indicators (KPIs) to measure the financial health and performance of the business.`,
       contentTitle4: `4. Consulting Services:`,
-      content4: `● Financial Advisory: Offering expert advice on fi nancial planning, investment strategies, and risk management.
+      content4: `● Financial Advisory: Offering expert advice on financial planning, investment strategies, and risk management.
 ● Audit Support: Assisting with internal and external audits by providing necessary documentation and support.
-● Compliance and Regulatory Support: Ensuring that the business complies with all relevant fi nancial regulations and standards.`,
+● Compliance and Regulatory Support: Ensuring that the business complies with all relevant financial regulations and standards.`,
     },
     {
       title: 'Social Media & Digital Marketing',
@@ -96,10 +98,10 @@ lifecycle. This helps in improving customer relationships, retaining clients, an
       content1: `● Content Creation: Developing engaging and relevant content for various social media platforms such as Facebook, Twitter, LinkedIn, and Instagram. This includes creating posts, graphics, videos, and other multimedia content.
 ● Social Media Strategy: Crafting a comprehensive social media strategy that aligns with the client's business goals. This involves identifying target audiences, setting objectives, and planning content calendars.
 ● Community Management: Monitoring and managing social media interactions, responding to comments and messages, and engaging with followers to build a strong online community.
-● Social Media Advertising: Running targeted ad campaigns on social media platforms to increase brand awareness, drive traffi c, and generate leads. This includes setting up and managing ads, optimizing ad performance, and analyzing results.`,
+● Social Media Advertising: Running targeted ad campaigns on social media platforms to increase brand awareness, drive traffic, and generate leads. This includes setting up and managing ads, optimizing ad performance, and analyzing results.`,
       contentTitle2: `2. Digital Marketing:`,
-      content2: `● Search Engine Optimization (SEO): Optimizing the client's website and content to improve search engine rankings and drive organic traffi c. This includes keyword research, on-page optimization, link building, and technical SEO.
-● Pay-Per-Click (PPC) Advertising: Managing PPC campaigns on platforms like Google Ads and Bing Ads to drive targeted traffi c and generate leads. This involves keyword bidding, ad creation, and performance analysis.
+      content2: `● Search Engine Optimization (SEO): Optimizing the client's website and content to improve search engine rankings and drive organic traffic. This includes keyword research, on-page optimization, link building, and technical SEO.
+● Pay-Per-Click (PPC) Advertising: Managing PPC campaigns on platforms like Google Ads and Bing Ads to drive targeted traffic and generate leads. This involves keyword bidding, ad creation, and performance analysis.
 ● Email Marketing: Creating and managing email marketing campaigns to nurture leads and engage with customers. This includes designing email templates, segmenting email lists, and analyzing campaign performance.
 ● Content Marketing: Developing and distributing valuable content to attract and engage the target audience. This includes blog posts, articles, whitepapers, infographics, and videos.
 ● Analytics and Reporting: Tracking and analyzing the performance of digital marketing campaigns using tools like Google Analytics. This involves generating reports, identifying trends, and making data-driven decisions to optimize campaigns.`,
@@ -132,10 +134,15 @@ lifecycle. This helps in improving customer relationships, retaining clients, an
           return (
             content && (
               <div className="accordion-content" key={num}>
-                <h4>{contentTitle}</h4>
-                {content.split('●').map((line, i) => (
-                  line.trim() && <p key={i}>● {line.trim()}</p>
-                ))}
+                {/* <div className="content-with-image">
+                  <img src={item.images} alt="Plant" className="content-image" /> */}
+                  <div className="content-text">
+                    <h4>{contentTitle}</h4>
+                    {content.split('●').map((line, i) => (
+                      line.trim() && <p key={i}>● {line.trim()}</p>
+                    ))}
+                  </div>
+                {/* </div> */}
               </div>
             )
           );
