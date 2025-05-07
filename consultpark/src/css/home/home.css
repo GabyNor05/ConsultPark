@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    height: 94vh;
+    background-image: url("../../assets/plant.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Required for the overlay */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+    backdrop-filter: blur(1.2px); /* Apply blur effect */
+    z-index: 1; /* Ensure it appears above the background */
+}
+
+h1  {
+    color: white;
+    font-family: 'quicksand', sans-serif;
+    margin: 0.5rem 0; /* Add spacing between elements */
+    font-size: 60px;
+    z-index: 2; /* Ensure it appears above the overlay */
+    position: relative;
+    text-align: center; /* Center text */
+} 
+
+h2  {
+    color: white;
+    font-family: 'quicksand', sans-serif;
+    margin: 0.5rem 0; /* Add spacing between elements */
+    font-size: 40px;
+    z-index: 2; /* Ensure it appears above the overlay */
+    position: relative;
+    text-align: center; /* Center text */
+} 
+
+h3 {
+    color: white;
+    font-family: 'quicksand', sans-serif;
+    margin: 0.5rem 0; /* Add spacing between elements */
+    font-size: 20px;
+    z-index: 2; /* Ensure it appears above the overlay */
+    position: relative;
+    text-align: center; /* Center text */
+}
+
+.about-Text h1{
+    color: black;
+    font-family: 'quicksand', sans-serif;
+    margin: 0.5rem 0; /* Add spacing between elements */
+    font-size: 20px;
+    z-index: 2; /* Ensure it appears above the overlay */
+    position: relative;
+    text-align: center; /* Center text */
+}
+
+.about-Text h2{
+    color: black;
+    font-family: 'quicksand', sans-serif;
+    margin: 0.5rem 0; /* Add spacing between elements */
+    font-size: 20px;
+    z-index: 2; /* Ensure it appears above the overlay */
+    position: relative;
+    text-align: center; /* Center text */
+}
+
+.whyUs-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 0 50px 0;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Set a fixed width for the card */
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 120px; /* Make the image take the full width of the card */
+    height: auto; /* Maintain the aspect ratio of the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 8px 8px 0 0; /* Rounds the top corners of the image */
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #000;
+  }
