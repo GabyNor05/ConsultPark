@@ -2,6 +2,7 @@ import React from 'react';
 import InfoCard from './InfoCards';
 import InfoCard2 from './InfoCards2';
 import './BPO.css';
+import Footer from './Footer';
 
 let headerText = [
   'Call Center & Help Desk Support',
@@ -96,6 +97,7 @@ function Outsourcing() {
               
             </div>
           </div>
+          <Footer />
         </div>
       </>
     );
