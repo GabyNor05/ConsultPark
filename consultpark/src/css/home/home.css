@@ -88,6 +88,7 @@ h3 {
     width: 300px; /* Set a fixed width for the card */
     text-align: center;
     transition: transform 0.3s ease;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.39), 2px 2px 4px rgba(0, 0, 0, 0.247);
   }
   
   .card:hover {
