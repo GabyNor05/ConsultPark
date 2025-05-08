@@ -32,7 +32,7 @@ let header2Text = [
 function Outsourcing() {
     return(
       <>
-        <div className='bg-gray-200 w-full py-8'>
+        <div className='bg-gray-200 w-full pt-8'>
           <div className='w-fit m-auto grid gap-8 grid-cols-2 p-16'>
             {headerText.map((item, index) => {
               return(<InfoCard key={index} message={item} />)
@@ -65,25 +65,27 @@ function Outsourcing() {
               return(<InfoCard2 key={index} message={item.Text} Title={item.Title} />)
             })}
           </div>
-
-          <div className='w-4/5 m-auto'>
-            <div className='Testimony1 h-[600px] my-16 rounded-xl p-16 overflow-hidden'>
-              <div className='TestimonyWrapper'>
-                <h1 className='text-6xl text-white'>"</h1>
-                <h3 className='text-4xl text-white w-96 text-justify index-16'>Consult Park transformed our business! The remote team they provided has been 
-                efficient, professional, and highly skilled.</h3>
-                <h1 className='text-6xl text-white text-right'>"</h1>
+          
+          <div className='TestimonySection bg-zinc-400 py-8'>
+            <div className='w-4/5 m-auto'>
+              <div className='Testimony1 h-[600px] my-16 rounded-xl p-16 overflow-hidden'>
+                <div className='TestimonyWrapper'>
+                  <h1 className='text-6xl text-white'>"</h1>
+                  <h3 className='text-4xl text-white w-96 text-justify index-16'>Consult Park transformed our business! The remote team they provided has been 
+                  efficient, professional, and highly skilled.</h3>
+                  <h1 className='text-6xl text-white text-right'>"</h1>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className='w-4/5 m-auto'>
-            <div className='Testimony2 h-[600px] my-16 rounded-xl p-16 overflow-hidden'>
-              <div className='TestimonyWrapper'>
-                <h1 className='text-6xl text-white'>"</h1>
-                <h3 className='text-4xl text-white w-96 text-justify index-16'>Outsourcing our customer support to Consult Park was the best decision we made. 
-                Our response time improved, and customer satisfaction skyrocketed!</h3>
-                <h1 className='text-6xl text-white text-right'>"</h1>
+            <div className='w-4/5 m-auto'>
+              <div className='Testimony2 h-[600px] my-16 rounded-xl p-16 overflow-hidden'>
+                <div className='TestimonyWrapper'>
+                  <h1 className='text-6xl text-white'>"</h1>
+                  <h3 className='text-4xl text-white w-96 text-justify index-16'>Outsourcing our customer support to Consult Park was the best decision we made. 
+                  Our response time improved, and customer satisfaction skyrocketed!</h3>
+                  <h1 className='text-6xl text-white text-right'>"</h1>
+                </div>
               </div>
             </div>
           </div>
