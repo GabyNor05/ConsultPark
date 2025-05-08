@@ -7,33 +7,43 @@
 @tailwind utilities;
 
 .navbar {
-  padding: 10px;
-  width: 80%; /* Ensure it spans the full width */
-  background-color: rgba(128, 138, 140, 0.4); /* Semi-transparent overlay */
+  width: 100%; /* Ensure it spans the full width */
+  padding: 16px;
+  background-color: rgba(128, 138, 140, 0.63); /* Semi-transparent overlay */
   backdrop-filter: blur(px); /* Apply blur effect */
-  height: auto; /* Allow height to adjust for responsiveness */
   display: flex;
   justify-content: center; /* Center-align the links horizontally */
   align-items: center; /* Center-align the links vertically */
   flex-wrap: wrap; /* Wrap links on smaller screens */
-  position: sticky;
+  position: absolute;
   top: 20px;
-  z-index: 100;
-  margin: auto; /* Center the navbar container */
   border-radius: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.CompanyLogo{
+  width: 120px;
+}
+
+.NavContainer{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  margin: auto;
+  width: 100vh;
 }
 
 .navbar:hover {
-  background-color: rgba(128, 138, 140, 0.45); /* Darker on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  background-color: rgba(255, 255, 255, 0.377); /* Darker on hover */
+   /* Smooth transition for hover effect */
 }
 
 .nav-link {
   padding: 8px 15px; /* Add padding for the link itself */
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 500; /* Slightly reduce font weight */
-  font-size: 16px; /* Make the font smaller */
+  font-size: 20px; /* Make the font smaller */
   transition: all 0.3s ease; /* Smooth transition for hover and active effects */
   border-radius: 5px; /* Rounded corners for hover container */
   text-align: center; /* Center-align text */
