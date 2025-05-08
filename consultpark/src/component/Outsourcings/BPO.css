@@ -15,6 +15,16 @@
     background: linear-gradient(to right,black, transparent);
 }
 
+.BPO-Header{
+    background: url('../../assets/blogPlant.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.BPO-Header{
+
+}
+
 .infoWindow{
     position: absolute;
     background: rgba(0, 0, 0, 0.432);
