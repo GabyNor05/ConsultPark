@@ -37,7 +37,7 @@ function Outsourcing() {
         <div className='bg-zinc-200 w-full'>
           
           <div className='BPO-Header py-8 pt-32'>
-          <h1>Seamless Outsourcing in 4 Simple Steps</h1>
+          <h1>Outsource non-core business functions and focus on growth.</h1>
             <div className='w-fit m-auto grid gap-8 grid-cols-2 p-16'>
               {headerText.map((item, index) => {
                 return(<InfoCard key={index} message={item} />)
