@@ -78,8 +78,8 @@ function Outsourcing() {
               </div>
             </div>
 
-            <div className='w-4/5 m-auto'>
-              <div className='Testimony2 h-[600px] my-16 rounded-xl p-16 overflow-hidden'>
+            <div className='w-4/5 m-auto flex'>
+              <div className='Testimony2 h-[600px] my-16 rounded-xl p-16 overflow-hidden w-[1200px]'>
                 <div className='TestimonyWrapper'>
                   <h1 className='text-6xl text-white'>"</h1>
                   <h3 className='text-4xl text-white w-96 text-justify index-16'>Outsourcing our customer support to Consult Park was the best decision we made. 
@@ -87,6 +87,13 @@ function Outsourcing() {
                   <h1 className='text-6xl text-white text-right'>"</h1>
                 </div>
               </div>
+              <div className='self-center m-auto'>
+                <h1 className='text-center text-zinc-700 text-5xl'>Join Our Growing List of Happy Clients! </h1>
+                <div className='w-80 bg-green-700 h-fit rounded-full cursor-pointer justify-end m-auto my-16'>
+                  <h2 className='p-6 text-zinc-200 text-center text-xl'>Get Started</h2>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
