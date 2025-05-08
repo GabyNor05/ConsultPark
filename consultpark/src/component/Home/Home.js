@@ -9,7 +9,7 @@ import gradCap from "../../assets/home/graduation-cap.png";
 import office from "../../assets/home/office-building.png";
 import target from "../../assets/home/target.png";
 import chart from "../../assets/home/chart-up.png";
-import Footer from './Footer';
+import Footer from './Footers';
 
 function Home() {
     return(

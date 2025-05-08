@@ -1,0 +1,65 @@
+.InfoCards{
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.39), 2px 2px 4px rgba(0, 0, 0, 0.247);
+}
+
+.header1{
+    background: url('../../assets/BPO1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.header1::before{
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: linear-gradient(to right,black, transparent);
+}
+
+.infoWindow{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.432);
+    backdrop-filter: blur(12px);
+    margin-left: 200px;
+    margin-top: 160px;
+    rotate: -1.9deg;
+    z-index: 2;
+}
+
+.infoText{
+    border-left: 2px solid green;
+}
+
+.Testimony1{
+    position: relative;
+    background: url('../../assets/Testimony1.jpg');
+    background-size: cover;
+    z-index: 2;
+}
+
+
+.Testimony1::before{
+    position: absolute;
+    content: '';
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgb(0, 0, 0) 20%, transparent 80%);
+}
+
+.TestimonyWrapper{
+    position: absolute;
+}
+
+.Testimony2{
+    position: relative;
+    background: url('../../assets/Testimony2.jpg');
+    background-size: cover;
+    z-index: 2;
+}
+
+.Testimony2::before{
+    position: absolute;
+    content: '';
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgb(0, 0, 0) 20%, transparent 80%);
+}
