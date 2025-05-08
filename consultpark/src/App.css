@@ -6,34 +6,50 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar{
+.navbar {
   padding: 10px;
-  background-color: #d9d9d9;
-  height: 50px;
+  width: 80%; /* Ensure it spans the full width */
+  background-color: rgba(128, 138, 140, 0.4); /* Semi-transparent overlay */
+  backdrop-filter: blur(px); /* Apply blur effect */
+  height: auto; /* Allow height to adjust for responsiveness */
   display: flex;
-  align-items: center;
-  opacity: 100%;
+  justify-content: center; /* Center-align the links horizontally */
+  align-items: center; /* Center-align the links vertically */
+  flex-wrap: wrap; /* Wrap links on smaller screens */
   position: sticky;
-  top: 0;
-  z-index: 1000;
+  top: 20px;
+  z-index: 100;
+  margin: auto; /* Center the navbar container */
+  border-radius: 100px;
 }
+
+.navbar:hover {
+  background-color: rgba(128, 138, 140, 0.45); /* Darker on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
 .nav-link {
-  margin: 30px;
+  padding: 8px 15px; /* Add padding for the link itself */
   color: black;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 20px;
-  transition: color 0.3s ease; /* Smooth transition for colour change */
-  display: flex;
-  direction: row;
+  font-weight: 500; /* Slightly reduce font weight */
+  font-size: 16px; /* Make the font smaller */
+  transition: all 0.3s ease; /* Smooth transition for hover and active effects */
+  border-radius: 5px; /* Rounded corners for hover container */
+  text-align: center; /* Center-align text */
 }
 
 .nav-link:hover {
-  color: #49B85F; 
+  color: white; /* Active text color */
+  transition: transform 0.3s ease; /* Smooth transition for the size change */
 }
 
-.logo{
-  width: 100px;
-  padding: 20px; 
-  object-fit: cover; 
+.nav-link.active {
+  color: white; /* Active text color */
+}
+
+.logo {
+  width: 120px; /* Reduce logo size for responsiveness */
+  padding: 5px; /* Adjust padding */
+  object-fit: cover;
 }
