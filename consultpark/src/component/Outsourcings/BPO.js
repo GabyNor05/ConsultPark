@@ -53,7 +53,7 @@ function Outsourcing() {
               <h1 className='infoText text-3xl pl-8 m-8 mr-0 text-zinc-800'>Workflow Automation & Efficiency Audits</h1>
               <h1 className='infoText text-3xl pl-8 m-8 mr-0 text-zinc-800'>Remote Workforce Strategy</h1>
               <h1 className='infoText text-3xl pl-8 m-8 mr-0 text-zinc-800'>Custom Business Solutions</h1>
-              <div className='w-80 bg-green-700 m-auto rounded-full cursor-pointer'>
+              <div className='w-80 bg-green-700 m-auto rounded-full cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-900'>
                 <h2 className='p-6 text-zinc-200 text-center text-xl'>Get a Free Consultation</h2>
               </div>
             </div>
@@ -90,7 +90,7 @@ function Outsourcing() {
               </div>
               <div className='self-center m-auto'>
                 <h1 className='text-center text-zinc-700 text-5xl'>Join Our Growing List of Happy Clients! </h1>
-                <div className='w-80 bg-green-700 h-fit rounded-full cursor-pointer justify-end m-auto my-16'>
+                <div className='w-80 bg-green-700 h-fit rounded-full cursor-pointer justify-end m-auto my-16 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-900'>
                   <h2 className='p-6 text-zinc-200 text-center text-xl'>Get Started</h2>
                 </div>
               </div>
@@ -105,7 +105,7 @@ function Outsourcing() {
                   <h1 className='infoText text-3xl pl-8 pr-16 m-8 mr-0 text-zinc-300 w-fit font-medium'>The Future of Remote Work & Why It Matters</h1>
                   <h1 className='infoText text-3xl pl-8 pr-16 m-8 mr-0 text-zinc-300 w-fit font-medium'>Top 5 Benefits of Outsourcing Your Business Operations</h1>
 
-                  <div className='w-80 bg-green-700 h-fit rounded-full cursor-pointer justify-end m-auto my-16 BlogButton'>
+                  <div className='w-80 bg-green-700 h-fit rounded-full cursor-pointer justify-end m-auto my-16 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-900 BlogButton'>
                     <h2 className='p-6 text-zinc-200 text-center text-xl'> Read More on Our Blog</h2>
                   </div>
                 </div>
