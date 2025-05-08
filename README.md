@@ -64,4 +64,6 @@ npm start
 
 ## creators
 
-[Andre van Heerden - 241155](https://github.com/andrevanheerden) [Gaby norris - 241143](https://github.com/GabyNor05)  [KB Olifant - 241299](https://github.com/KBOlifant)
+<a href="https://github.com/GabyNor05/ConsultPark/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GabyNor05/ConsultPark" />
+</a>
