@@ -3,7 +3,8 @@ import './Contact.css';
 
 function Contact() {
     return(
-      <div className='ContactSection flex justify-end'>
+      <div className='ContactBG'>
+        <div className='ContactSection flex justify-end'>
         <div className='ContactForm m-24 rounded-xl h-fit p-8'>
           <h1 className='text-xl w-full m-auto text-center text-zinc-800 font-bold border-b-2 border-green-900'>Let’s Connect & Build Your Dream Team!</h1>
           <div className='contactInfoBlock p-2 px-12 m-4 border-b-2 border-green-900'>
@@ -32,6 +33,8 @@ function Contact() {
           </div>
         </div>
       </div>
+      </div>
+      
     );
   }
   
