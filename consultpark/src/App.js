@@ -5,7 +5,7 @@ import Navbar from './component/Navbar';
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import Services from './component/Services/Services';
-import Outsourcing from './component/Outsourcing/Outsourcing';
+import Outsourcing from './component/Outsourcings/BPO';
 import Contact from './component/Contact/Contact';
 
 function App() {
