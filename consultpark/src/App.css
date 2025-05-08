@@ -9,7 +9,7 @@
 .navbar {
   width: 100%; /* Ensure it spans the full width */
   padding: 16px;
-  background-color: rgba(128, 138, 140, 0.63); /* Semi-transparent overlay */
+  background-color: rgba(142, 149, 168, 0.36); /* Semi-transparent overlay */
   backdrop-filter: blur(px); /* Apply blur effect */
   display: flex;
   justify-content: center; /* Center-align the links horizontally */
@@ -30,13 +30,9 @@
   top: 0;
   z-index: 99;
   margin: auto;
-  width: 100vh;
+  width: 160vh;
 }
 
-.navbar:hover {
-  background-color: rgba(255, 255, 255, 0.377); /* Darker on hover */
-   /* Smooth transition for hover effect */
-}
 
 .nav-link {
   padding: 8px 15px; /* Add padding for the link itself */
@@ -50,7 +46,7 @@
 }
 
 .nav-link:hover {
-  color: white; /* Active text color */
+  color: #49B85F; /* Active text color */
   transition: transform 0.3s ease; /* Smooth transition for the size change */
 }
 

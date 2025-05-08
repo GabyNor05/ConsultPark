@@ -2,7 +2,7 @@
 
 .services-header {
     width: 100%;
-    height: 105vh;
+    height: 100vh;
     background-image: url("../../../assets/plant.jpg");
     background-size: cover;
     background-position: center;
@@ -11,7 +11,7 @@
     flex-direction: column; /* Stack elements vertically */
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    margin-top: -90px;
+
 }
 
 .services-header::before {
