@@ -3,8 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './component/Navbar';
 import Home from './component/Home/Home';
-import About from './component/About/About';
-import Services from './component/Services/Services';
+import About from './component/about/About';
+import Services from './component/services/Services';
 import Outsourcing from './component/Outsourcings/BPO';
 import Contact from './component/Contact/Contact';
 
