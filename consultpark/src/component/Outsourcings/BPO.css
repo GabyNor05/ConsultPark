@@ -63,3 +63,22 @@
     border-radius: inherit;
     background: linear-gradient(to right, rgb(0, 0, 0) 20%, transparent 80%);
 }
+
+.BlogSection{
+    position: relative;
+    background: url('../../assets/blogPlant.jpg');
+    background-size: cover;
+}
+
+.BlogSection::after{
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: linear-gradient(to left, rgb(0, 0, 0) 20%, transparent);
+    border-radius: inherit;
+}
+
+.BlogButton{
+    z-index: 2;
+    position: relative;
+}
