@@ -40,7 +40,7 @@ function Home() {
         </div>
         
         <Footer />
-        <div> Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+        
       </div>
     );
   }

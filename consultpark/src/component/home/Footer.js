@@ -39,10 +39,10 @@ const Footer = () => {
                 </div>
 
                 <div className="">
-                    <Link to="/Consultation">
-                        <div className="buttonContainer">
+                    <Link to="/Contact">
+                        
                             <CTAButton />
-                        </div>
+                  
                     </Link>
                     
                 </div>
@@ -50,6 +50,7 @@ const Footer = () => {
 
             <div className="footer-copyright">
                 <p>© 2025 Consult Park CO., LTD.</p>
+                <div> Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
         </footer>
     );
