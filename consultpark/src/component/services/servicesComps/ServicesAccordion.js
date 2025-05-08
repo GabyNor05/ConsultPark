@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Services.css';
-// import Plant from '../../../assets/plant.jpg';
+
 
 const ServicesAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -134,15 +134,14 @@ lifecycle. This helps in improving customer relationships, retaining clients, an
           return (
             content && (
               <div className="accordion-content" key={num}>
-                {/* <div className="content-with-image">
-                  <img src={item.images} alt="Plant" className="content-image" /> */}
+                
                   <div className="content-text">
                     <h4>{contentTitle}</h4>
                     {content.split('●').map((line, i) => (
                       line.trim() && <p key={i}>● {line.trim()}</p>
                     ))}
                   </div>
-                {/* </div> */}
+
               </div>
             )
           );
