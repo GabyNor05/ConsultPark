@@ -2,6 +2,7 @@ import React from 'react';
 import './servicesComps/Services.css'; // Corrected path to Services.css
 import ServicesHeader from './servicesComps/ServicesHeader';
 import ServicesAccordion from './servicesComps/ServicesAccordion'; // Ensure this path is correct
+import Footer from '../Home/Footer'; // Ensure this path is correct
 
 function Services() {
     return(
@@ -9,6 +10,7 @@ function Services() {
         <ServicesHeader />
 
           <ServicesAccordion />
+          <Footer />
       </div>
     );
 }
